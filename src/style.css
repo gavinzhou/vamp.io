@@ -183,6 +183,17 @@ button:focus {
 /* Grid */
 /* Colors */
 /* For naming colors use: // http://chir.ag/projects/name-that-color/ */
+/* // vamp.io site
+$color-radical-red: #FF405E;
+$color-brick-red: #C33750;
+$color-big-stone: #142D3C;
+$color-blue-dianne: #234B5F;
+$color-ming: #37647D;
+$color-bermuda-gray: #6991AA;
+$color-jungle-mist: #C3D2DC;
+$color-cascade: #96ADAA;
+$color-white-squeeze: #F0F5FA;
+*/
 /* Font-sizes */
 /* Margins */
 .container {
@@ -536,7 +547,7 @@ body {
   min-height: 100vh;
   position: relative; }
   .page.documentation .header {
-    color: #FF405E;
+    color: #F4511E;
     margin: 40px 0; }
   @media all and (min-width: 1025px) {
     .page.documentation .content {
@@ -546,7 +557,7 @@ body {
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #142D3C;
+  color: #00695C;
   font-size: 26px; }
   @media all and (min-width: 641px) {
     .header {
@@ -556,7 +567,7 @@ body {
   font-size: 26px;
   font-weight: 300;
   letter-spacing: 0.05em;
-  color: #142D3C; }
+  color: #00695C; }
   @media all and (min-width: 641px) {
     .h1 {
       font-size: 40px; } }
@@ -571,7 +582,7 @@ body {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 0.05em;
-  color: #142D3C; }
+  color: #00695C; }
   @media all and (min-width: 1025px) {
     .h2 {
       font-size: 22px; } }
@@ -596,7 +607,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.05em;
-  color: #142D3C; }
+  color: #00695C; }
   .text-header:not(:first-child):not(:last-child), .markdowned th:not(:first-child):not(:last-child) {
     margin: 10px 0; }
   .text-header:first-child, .markdowned th:first-child {
@@ -608,7 +619,7 @@ body {
   font-weight: 300;
   letter-spacing: 0.05em;
   font-size: 15px;
-  color: #142D3C;
+  color: #00695C;
   line-height: 1.7; }
 
 .button {
@@ -643,7 +654,7 @@ body {
     background-color: #6991AA;
     color: white; }
     .button--grey:hover {
-      background-color: #234B5F; }
+      background-color: #00897B; }
     .button--grey--ghost {
       background-color: transparent;
       color: #6991AA;
@@ -652,28 +663,28 @@ body {
         background-color: #6991AA;
         color: white; }
   .button--red {
-    background-color: #FF405E;
+    background-color: #F4511E;
     color: white; }
     .button--red:hover {
       background-color: #C33750; }
     .button--red--ghost {
       background-color: transparent;
-      color: #FF405E;
-      border: 1px solid #FF405E; }
+      color: #F4511E;
+      border: 1px solid #F4511E; }
       .button--red--ghost:hover {
-        background-color: #FF405E;
+        background-color: #F4511E;
         color: white; }
   .button--blue {
-    background-color: #142D3C;
+    background-color: #00695C;
     color: white; }
     .button--blue:hover {
-      background-color: #234B5F; }
+      background-color: #00897B; }
     .button--blue--ghost {
       background-color: transparent;
-      color: #142D3C;
-      border: 1px solid #142D3C; }
+      color: #00695C;
+      border: 1px solid #00695C; }
       .button--blue--ghost:hover {
-        background-color: #142D3C;
+        background-color: #00695C;
         color: white; }
 
 .lander-row {
@@ -711,7 +722,7 @@ body {
     .lander-row--small-padding {
       padding: 40px 0; } }
   .lander-row--blue {
-    background-color: #142D3C; }
+    background-color: #00695C; }
     .lander-row--blue .header, .lander-row--blue .h1, .lander-row--blue .h2, .lander-row--blue .text-header, .lander-row--blue .markdowned th, .markdowned .lander-row--blue th, .lander-row--blue .text, .lander-row--blue .markdowned li, .markdowned .lander-row--blue li, .lander-row--blue .markdowned td, .markdowned .lander-row--blue td, .lander-row--blue .date, .lander-row--blue .fa {
       color: #F0F5FA; }
   .lander-row--white {
@@ -719,7 +730,7 @@ body {
   .lander-row--grey {
     background-color: #F0F5FA; }
   .lander-row--red {
-    background-color: #FF405E; }
+    background-color: #F4511E; }
     .lander-row--red .header, .lander-row--red .h2, .lander-row--red .h3, .lander-row--red .button, .lander-row--red .text, .lander-row--red .markdowned li, .markdowned .lander-row--red li, .lander-row--red .markdowned td, .markdowned .lander-row--red td, .lander-row--red .date, .lander-row--red .fa {
       color: white; }
   .lander-row a {
@@ -728,7 +739,7 @@ body {
 .hero-space {
   padding-top: 54px;
   padding-bottom: 0;
-  background: linear-gradient(45deg, #234B5F, #142D3C);
+  background: linear-gradient(45deg, #00897B, #00695C);
   position: relative; }
   @media all and (min-width: 321px) {
     .hero-space {
@@ -819,7 +830,7 @@ body {
     text-align: right;
     line-height: 0; }
   .side-menu-item.active .text, .side-menu-item.active .markdowned li, .markdowned .side-menu-item.active li, .side-menu-item.active .markdowned td, .markdowned .side-menu-item.active td, .side-menu-item.active .date {
-    color: #FF405E; }
+    color: #F4511E; }
   .side-menu-item:first-child {
     padding-top: 0; }
   .side-menu-item:not(:last-child) {
@@ -830,7 +841,7 @@ body {
   width: 100%;
   text-decoration: none;
   padding: 7px 0 7px 60px;
-  color: #142D3C; }
+  color: #00695C; }
   .sub-menu-item.active .text, .sub-menu-item.active .markdowned li, .markdowned .sub-menu-item.active li, .sub-menu-item.active .markdowned td, .markdowned .sub-menu-item.active td, .sub-menu-item.active .date {
     font-weight: 500; }
 
@@ -846,7 +857,7 @@ body {
   .content .content-header {
     font-size: 32px;
     font-weight: 100;
-    color: #FF405E;
+    color: #F4511E;
     line-height: 1.5;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -855,7 +866,7 @@ body {
 .markdowned h1 {
   font-size: 32px;
   font-weight: 100;
-  color: #FF405E;
+  color: #F4511E;
   line-height: 1.5;
   letter-spacing: 0.05em;
   margin: 25px 0; }
@@ -863,7 +874,7 @@ body {
 .markdowned h2 {
   font-size: 24px;
   font-weight: 500;
-  color: #142D3C;
+  color: #00695C;
   line-height: 1.5em;
   letter-spacing: 0.05em;
   margin: 32px 0 12.5px 0;
@@ -884,7 +895,7 @@ body {
 .markdowned h3 {
   font-size: 13px;
   font-weight: 500;
-  color: #142D3C;
+  color: #00695C;
   line-height: 1.8;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -904,7 +915,7 @@ body {
 .markdowned h4 {
   font-size: 13px;
   font-weight: 500;
-  color: #142D3C;
+  color: #00695C;
   line-height: 1.8;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -922,7 +933,7 @@ body {
 .markdowned h5 {
   font-size: 13px;
   font-weight: 500;
-  color: #FF405E;
+  color: #F4511E;
   line-height: 1.8;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -940,7 +951,7 @@ body {
 .markdowned h6 {
   font-size: 15px;
   font-weight: 500;
-  color: #142D3C;
+  color: #00695C;
   line-height: 1.7;
   letter-spacing: 0.025em;
   margin: 25px 0; }
@@ -948,7 +959,7 @@ body {
 .markdowned p {
   font-size: 15px;
   font-weight: 300;
-  color: #142D3C;
+  color: #00695C;
   line-height: 1.5;
   letter-spacing: 0.025em;
   margin: 25px 0; }
@@ -984,7 +995,7 @@ body {
     margin-bottom: 0; }
 
 .markdowned em {
-  color: #142D3C;
+  color: #00695C;
   font-weight: 200; }
 
 .markdowned strong {
@@ -1079,7 +1090,7 @@ body {
     text-decoration: none;
     height: 100%; }
     .top-menu .top-menu-item.active {
-      border-bottom: 1px solid #FF405E;
+      border-bottom: 1px solid #F4511E;
       font-weight: 500; }
   .top-menu .github-logo, .top-menu .search-button {
     color: #F0F5FA;
@@ -1088,15 +1099,15 @@ body {
 .top-menu.active {
   background-color: white;
   border-bottom: none;
-  box-shadow: 0 4px 2px -2px rgba(20, 45, 60, 0.25); }
+  box-shadow: 0 4px 2px -2px rgba(0, 105, 92, 0.25); }
   .top-menu.active .logo {
     background-image: url("../img/005-vamp/Logo/logo-long-colour.svg"); }
   .top-menu.active .top-menu-item {
-    color: #142D3C; }
+    color: #00695C; }
   .top-menu.active .github-logo {
-    color: #142D3C; }
+    color: #00695C; }
   .top-menu.active .search-button {
-    color: #142D3C; }
+    color: #00695C; }
 
 .slicknav_menu {
   display: block;
@@ -1163,7 +1174,7 @@ body {
       color: #C3D2DC !important; }
     .footer a.rss-feed-link {
       text-decoration: underline;
-      color: #FF405E; }
+      color: #F4511E; }
   .footer .input-group {
     margin: 20px 0; }
 
@@ -1362,11 +1373,11 @@ body {
   .slicknav_menu * {
     box-sizing: border-box; }
   .slicknav_menu .slicknav_menutxt {
-    color: #142D3C;
+    color: #00695C;
     font-weight: bold;
     text-shadow: none; }
   .slicknav_menu .slicknav_icon-bar {
-    background-color: #142D3C; }
+    background-color: #00695C; }
 
 .slicknav_btn {
   margin: 5px 5px 6px;
@@ -1377,7 +1388,7 @@ body {
   background-color: transparent; }
 
 .slicknav_nav {
-  color: #142D3C;
+  color: #00695C;
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -1397,16 +1408,16 @@ body {
     margin: 2px 5px; }
     .slicknav_nav .slicknav_row:hover {
       background: transparent;
-      color: #142D3C; }
+      color: #00695C; }
   .slicknav_nav a {
     padding: 16px 10px;
     margin: 2px 5px;
     text-decoration: none;
-    color: #142D3C;
+    color: #00695C;
     font-weight: 300; }
     .slicknav_nav a:hover {
       background: transparent;
-      color: #142D3C; }
+      color: #00695C; }
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
   .slicknav_nav .slicknav_item a {
@@ -1459,7 +1470,7 @@ pre + pre {
     line-height: 1;
     font-weight: 500;
     font-size: 12px;
-    color: #142D3C; }
+    color: #00695C; }
     .copy-button p .fa-check {
       transform: translate(0, -1px); }
   .copy-button .copied {
@@ -1470,7 +1481,7 @@ pre + pre {
     cursor: pointer;
     color: white; }
   .copy-button.clicked {
-    background-color: #142D3C;
+    background-color: #00695C;
     color: white;
     width: 200px; }
     .copy-button.clicked .copy {
@@ -1576,7 +1587,7 @@ pre + pre {
   right: 0;
   bottom: 0;
   background-color: transparent;
-  box-shadow: 0 4px 2px -2px rgba(20, 45, 60, 0.25);
+  box-shadow: 0 4px 2px -2px rgba(0, 105, 92, 0.25);
   overflow-y: auto; }
   .search-results ul li {
     display: block;
@@ -1601,7 +1612,7 @@ pre + pre {
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 0.1em;
-    color: #142D3C;
+    color: #00695C;
     padding-top: 0;
     margin-top: 0 !important; }
   .search-results p.url {
@@ -1611,7 +1622,7 @@ pre + pre {
     letter-spacing: 0.05em;
     margin-bottom: 2px; }
   .search-results p.the-content {
-    color: #142D3C;
+    color: #00695C;
     letter-spacing: 0.05em;
     font-size: 14px;
     font-weight: 300;
@@ -1633,7 +1644,7 @@ pre + pre {
     margin-bottom: 10px;
     font-weight: 300;
     letter-spacing: 0.05em;
-    color: #FF405E; }
+    color: #F4511E; }
   #not-found-page h2 {
     font-size: 18px;
     margin-bottom: 20px;

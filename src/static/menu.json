@@ -491,28 +491,6 @@
       "visible": true
     },
     {
-      "path": "resources/downloads",
-      "children": [
-        {
-          "path": "resources/downloads",
-          "text": "Downloads",
-          "visible": true
-        },
-        {
-          "path": "resources/community",
-          "text": "Community",
-          "visible": true
-        },
-        {
-          "path": "resources/news",
-          "text": "News",
-          "visible": true
-        }
-      ],
-      "text": "Resources",
-      "visible": true
-    },
-    {
       "path": "support",
       "text": "Support",
       "visible": true

@@ -32,6 +32,7 @@ gulp.task('serve', function() {
   });
 
   gulp.watch('./src/static/scss/*.scss', ['sass:dev']);
+  gulp.watch('./src/layouts/**/*.html', ['build:dev']).on('change', browserSync.reload);
   gulp.watch('./src/static/js/*.js', ['js:dev']).on('change', browserSync.reload);
 
 });
