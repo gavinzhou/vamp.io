@@ -1,15 +1,15 @@
-# New vamp.io
+# New orangesys.io
 
-This is the source for the new [vamp.io](http://vamp.io) site. 
+Web theme is based on [magneticio/vamp.io](https://github.com/magneticio/vamp.io) site.
 
 ## Writing content
-    
+
 1. Clone this repo
-    
-        $ git clone https://github.com/magneticio/vamp.io.git
-        
+
+        $ git clone https://github.com/orangesys/vamp.io.git
+
 2. Download Hugo from [http://gohugo.io](http://gohugo.io) or install using Homebrew:
-    
+
         $ brew update && brew install hugo
 
 3. Build the vamp-theme by installing node modules and running gulp
