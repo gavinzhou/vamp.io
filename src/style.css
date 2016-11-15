@@ -557,7 +557,7 @@ body {
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #00695C;
+  color: #37474F;
   font-size: 26px; }
   @media all and (min-width: 641px) {
     .header {
@@ -567,7 +567,7 @@ body {
   font-size: 26px;
   font-weight: 300;
   letter-spacing: 0.05em;
-  color: #00695C; }
+  color: #37474F; }
   @media all and (min-width: 641px) {
     .h1 {
       font-size: 40px; } }
@@ -582,7 +582,7 @@ body {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 0.05em;
-  color: #00695C; }
+  color: #37474F; }
   @media all and (min-width: 1025px) {
     .h2 {
       font-size: 22px; } }
@@ -607,7 +607,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.05em;
-  color: #00695C; }
+  color: #37474F; }
   .text-header:not(:first-child):not(:last-child), .markdowned th:not(:first-child):not(:last-child) {
     margin: 10px 0; }
   .text-header:first-child, .markdowned th:first-child {
@@ -619,7 +619,7 @@ body {
   font-weight: 300;
   letter-spacing: 0.05em;
   font-size: 15px;
-  color: #00695C;
+  color: #37474F;
   line-height: 1.7; }
 
 .button {
@@ -654,7 +654,7 @@ body {
     background-color: #6991AA;
     color: white; }
     .button--grey:hover {
-      background-color: #00897B; }
+      background-color: #546E7A; }
     .button--grey--ghost {
       background-color: transparent;
       color: #6991AA;
@@ -675,16 +675,16 @@ body {
         background-color: #F4511E;
         color: white; }
   .button--blue {
-    background-color: #00695C;
+    background-color: #37474F;
     color: white; }
     .button--blue:hover {
-      background-color: #00897B; }
+      background-color: #546E7A; }
     .button--blue--ghost {
       background-color: transparent;
-      color: #00695C;
-      border: 1px solid #00695C; }
+      color: #37474F;
+      border: 1px solid #37474F; }
       .button--blue--ghost:hover {
-        background-color: #00695C;
+        background-color: #37474F;
         color: white; }
 
 .lander-row {
@@ -722,7 +722,7 @@ body {
     .lander-row--small-padding {
       padding: 40px 0; } }
   .lander-row--blue {
-    background-color: #00695C; }
+    background-color: #37474F; }
     .lander-row--blue .header, .lander-row--blue .h1, .lander-row--blue .h2, .lander-row--blue .text-header, .lander-row--blue .markdowned th, .markdowned .lander-row--blue th, .lander-row--blue .text, .lander-row--blue .markdowned li, .markdowned .lander-row--blue li, .lander-row--blue .markdowned td, .markdowned .lander-row--blue td, .lander-row--blue .date, .lander-row--blue .fa {
       color: #F0F5FA; }
   .lander-row--white {
@@ -739,7 +739,7 @@ body {
 .hero-space {
   padding-top: 54px;
   padding-bottom: 0;
-  background: linear-gradient(45deg, #00897B, #00695C);
+  background: linear-gradient(45deg, #546E7A, #37474F);
   position: relative; }
   @media all and (min-width: 321px) {
     .hero-space {
@@ -841,7 +841,7 @@ body {
   width: 100%;
   text-decoration: none;
   padding: 7px 0 7px 60px;
-  color: #00695C; }
+  color: #37474F; }
   .sub-menu-item.active .text, .sub-menu-item.active .markdowned li, .markdowned .sub-menu-item.active li, .sub-menu-item.active .markdowned td, .markdowned .sub-menu-item.active td, .sub-menu-item.active .date {
     font-weight: 500; }
 
@@ -874,7 +874,7 @@ body {
 .markdowned h2 {
   font-size: 24px;
   font-weight: 500;
-  color: #00695C;
+  color: #37474F;
   line-height: 1.5em;
   letter-spacing: 0.05em;
   margin: 32px 0 12.5px 0;
@@ -895,7 +895,7 @@ body {
 .markdowned h3 {
   font-size: 13px;
   font-weight: 500;
-  color: #00695C;
+  color: #37474F;
   line-height: 1.8;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -915,7 +915,7 @@ body {
 .markdowned h4 {
   font-size: 13px;
   font-weight: 500;
-  color: #00695C;
+  color: #37474F;
   line-height: 1.8;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -951,7 +951,7 @@ body {
 .markdowned h6 {
   font-size: 15px;
   font-weight: 500;
-  color: #00695C;
+  color: #37474F;
   line-height: 1.7;
   letter-spacing: 0.025em;
   margin: 25px 0; }
@@ -959,7 +959,7 @@ body {
 .markdowned p {
   font-size: 15px;
   font-weight: 300;
-  color: #00695C;
+  color: #37474F;
   line-height: 1.5;
   letter-spacing: 0.025em;
   margin: 25px 0; }
@@ -995,7 +995,7 @@ body {
     margin-bottom: 0; }
 
 .markdowned em {
-  color: #00695C;
+  color: #37474F;
   font-weight: 200; }
 
 .markdowned strong {
@@ -1099,15 +1099,15 @@ body {
 .top-menu.active {
   background-color: white;
   border-bottom: none;
-  box-shadow: 0 4px 2px -2px rgba(0, 105, 92, 0.25); }
+  box-shadow: 0 4px 2px -2px rgba(55, 71, 79, 0.25); }
   .top-menu.active .logo {
     background-image: url("../img/005-vamp/Logo/logo-long-colour.svg"); }
   .top-menu.active .top-menu-item {
-    color: #00695C; }
+    color: #37474F; }
   .top-menu.active .github-logo {
-    color: #00695C; }
+    color: #37474F; }
   .top-menu.active .search-button {
-    color: #00695C; }
+    color: #37474F; }
 
 .slicknav_menu {
   display: block;
@@ -1373,11 +1373,11 @@ body {
   .slicknav_menu * {
     box-sizing: border-box; }
   .slicknav_menu .slicknav_menutxt {
-    color: #00695C;
+    color: #37474F;
     font-weight: bold;
     text-shadow: none; }
   .slicknav_menu .slicknav_icon-bar {
-    background-color: #00695C; }
+    background-color: #37474F; }
 
 .slicknav_btn {
   margin: 5px 5px 6px;
@@ -1388,7 +1388,7 @@ body {
   background-color: transparent; }
 
 .slicknav_nav {
-  color: #00695C;
+  color: #37474F;
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -1408,16 +1408,16 @@ body {
     margin: 2px 5px; }
     .slicknav_nav .slicknav_row:hover {
       background: transparent;
-      color: #00695C; }
+      color: #37474F; }
   .slicknav_nav a {
     padding: 16px 10px;
     margin: 2px 5px;
     text-decoration: none;
-    color: #00695C;
+    color: #37474F;
     font-weight: 300; }
     .slicknav_nav a:hover {
       background: transparent;
-      color: #00695C; }
+      color: #37474F; }
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
   .slicknav_nav .slicknav_item a {
@@ -1470,7 +1470,7 @@ pre + pre {
     line-height: 1;
     font-weight: 500;
     font-size: 12px;
-    color: #00695C; }
+    color: #37474F; }
     .copy-button p .fa-check {
       transform: translate(0, -1px); }
   .copy-button .copied {
@@ -1481,7 +1481,7 @@ pre + pre {
     cursor: pointer;
     color: white; }
   .copy-button.clicked {
-    background-color: #00695C;
+    background-color: #37474F;
     color: white;
     width: 200px; }
     .copy-button.clicked .copy {
@@ -1587,7 +1587,7 @@ pre + pre {
   right: 0;
   bottom: 0;
   background-color: transparent;
-  box-shadow: 0 4px 2px -2px rgba(0, 105, 92, 0.25);
+  box-shadow: 0 4px 2px -2px rgba(55, 71, 79, 0.25);
   overflow-y: auto; }
   .search-results ul li {
     display: block;
@@ -1612,7 +1612,7 @@ pre + pre {
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 0.1em;
-    color: #00695C;
+    color: #37474F;
     padding-top: 0;
     margin-top: 0 !important; }
   .search-results p.url {
@@ -1622,7 +1622,7 @@ pre + pre {
     letter-spacing: 0.05em;
     margin-bottom: 2px; }
   .search-results p.the-content {
-    color: #00695C;
+    color: #37474F;
     letter-spacing: 0.05em;
     font-size: 14px;
     font-weight: 300;

@@ -16,86 +16,6 @@
       "visible": false
     },
     {
-      "path": "draft",
-      "children": [
-        {
-          "path": "draft/api",
-          "children": [
-            {
-              "path": "draft/api/0.8.5",
-              "children": [
-                {
-                  "path": "draft/api/0.8.5/example1",
-                  "text": "Example1",
-                  "visible": true
-                },
-                {
-                  "path": "draft/api/0.8.5/index",
-                  "text": "Index",
-                  "visible": false
-                }
-              ],
-              "text": "0.8.5",
-              "visible": true
-            },
-            {
-              "path": "draft/api/0.9.0",
-              "children": [
-                {
-                  "path": "draft/api/0.9.0/example2",
-                  "text": "Example2",
-                  "visible": true
-                },
-                {
-                  "path": "draft/api/0.9.0/index",
-                  "text": "Index",
-                  "visible": false
-                }
-              ],
-              "text": "0.9.0",
-              "visible": true
-            },
-            {
-              "path": "draft/api/master",
-              "children": [
-                {
-                  "path": "draft/api/master/example1",
-                  "text": "Example1",
-                  "visible": true
-                },
-                {
-                  "path": "draft/api/master/example2",
-                  "text": "Example2",
-                  "visible": true
-                },
-                {
-                  "path": "draft/api/master/index",
-                  "text": "Index",
-                  "visible": false
-                }
-              ],
-              "text": "Master",
-              "visible": true
-            }
-          ],
-          "text": "Api",
-          "visible": true
-        },
-        {
-          "path": "draft/blueprint",
-          "text": "Blueprint",
-          "visible": true
-        },
-        {
-          "path": "draft/downloads",
-          "text": "Downloads",
-          "visible": true
-        }
-      ],
-      "text": "Draft",
-      "visible": false
-    },
-    {
       "path": "index.json",
       "text": "Index.json",
       "visible": false
@@ -118,17 +38,17 @@
       "visible": false
     },
     {
-      "path": "why-use-vamp",
-      "text": "Why use Vamp? ",
+      "path": "why-use-orangesys",
+      "text": "Why use Orangesys? ",
       "visible": true,
       "children": [
         {
-          "path": "why-use-vamp",
-          "text": "Why use Vamp?",
+          "path": "why-use-orangesys",
+          "text": "Why use Orangesys?",
           "visible": true
         },
         {
-          "path": "why-use-vamp/use-cases",
+          "path": "why-use-orangesys/use-cases",
           "children": [
             {
               "path": "index",
@@ -136,37 +56,37 @@
               "visible": false
             },
             {
-              "path": "why-use-vamp/use-cases/create-responsive-website",
+              "path": "why-use-orangesys/use-cases/create-responsive-website",
               "text": "Create a responsive website",
               "visible": true
             },
             {
-              "path": "why-use-vamp/use-cases/resolve-incompatibilities-after-upgrade",
+              "path": "why-use-orangesys/use-cases/resolve-incompatibilities-after-upgrade",
               "text": "Resolve incompatibilities",
               "visible": true
             },
             {
-              "path": "why-use-vamp/use-cases/refactor-monolithic-to-microsystems",
+              "path": "why-use-orangesys/use-cases/refactor-monolithic-to-microsystems",
               "text": "Refactor to microservices",
               "visible": true
             },
             {
-              "path": "why-use-vamp/use-cases/modernise-architecture",
+              "path": "why-use-orangesys/use-cases/modernise-architecture",
               "text": "Modernise architecture",
               "visible": true
             },
             {
-              "path": "why-use-vamp/use-cases/simulate-and-test-scaling-behaviour",
+              "path": "why-use-orangesys/use-cases/simulate-and-test-scaling-behaviour",
               "text": "Simulate and test scaling behaviour",
               "visible": true
             },
             {
-              "path": "why-use-vamp/use-cases/self-healing-and-self-optimising",
+              "path": "why-use-orangesys/use-cases/self-healing-and-self-optimising",
               "text": "Self-healing and self-optimising",
               "visible": true
             },
             {
-              "path": "why-use-vamp/use-cases/service-discovery",
+              "path": "why-use-orangesys/use-cases/service-discovery",
               "text": "Service discovery",
               "visible": true
             }
@@ -175,20 +95,20 @@
           "visible": true
         },
         {
-          "path": "why-use-vamp/vamp-compared-to/proxies-and-load-balancers",
+          "path": "why-use-orangesys/vamp-compared-to/proxies-and-load-balancers",
           "children": [
             {
-              "path": "why-use-vamp/vamp-compared-to/proxies-and-load-balancers",
+              "path": "why-use-orangesys/vamp-compared-to/proxies-and-load-balancers",
               "text": "Proxies and load balancers",
               "visible": true
             },
             {
-              "path": "why-use-vamp/vamp-compared-to/paas-and-container-systems",
+              "path": "why-use-orangesys/vamp-compared-to/paas-and-container-systems",
               "text": "PaaS and container systems",
               "visible": true
             },
             {
-              "path": "why-use-vamp/vamp-compared-to/frameworks-and-tools",
+              "path": "why-use-orangesys/vamp-compared-to/frameworks-and-tools",
               "text": "Frameworks and tools",
               "visible": true
             }
@@ -197,70 +117,70 @@
           "visible": true
         },
         {
-          "path": "why-use-vamp/see-vamp-in-action",
+          "path": "why-use-orangesys/see-vamp-in-action",
           "text": "See Vamp in action",
           "visible": true
         },
         {
-          "path": "why-use-vamp/feature-list",
+          "path": "why-use-orangesys/feature-list",
           "text": "Feature list",
           "visible": true
         },
         {
-          "path": "why-use-vamp/enterprise-edition",
+          "path": "why-use-orangesys/enterprise-edition",
           "text": "Enterprise edition",
           "visible": true
         },
         {
-          "path": "why-use-vamp/get-started",
+          "path": "why-use-orangesys/get-started",
           "text": "Get started",
           "visible": true
         }
       ]
     },
     {
-      "path": "documentation/how-vamp-works/architecture-and-components",
+      "path": "documentation/how-orangesys-works/architecture-and-components",
       "children": [
         {
-          "path": "documentation/how-vamp-works/architecture-and-components",
+          "path": "documentation/how-orangesys-works/architecture-and-components",
           "children": [
             {
-              "path": "documentation/how-vamp-works/architecture-and-components",
+              "path": "documentation/how-orangesys-works/architecture-and-components",
               "text": "Architecture and components",
               "visible": true
             },
             {
-              "path": "documentation/how-vamp-works/requirements",
+              "path": "documentation/how-orangesys-works/requirements",
               "text": "Requirements",
               "visible": true
             },
             {
-              "path": "documentation/how-vamp-works/which-container-scheduler",
+              "path": "documentation/how-orangesys-works/which-container-scheduler",
               "text": "Which container scheduler?",
               "visible": true
             },
             {
-              "path": "documentation/how-vamp-works/service-discovery",
+              "path": "documentation/how-orangesys-works/service-discovery",
               "text": "Service discovery",
               "visible": true
             },
             {
-              "path": "documentation/how-vamp-works/persistence-key-value-store",
+              "path": "documentation/how-orangesys-works/persistence-key-value-store",
               "text": "Persistence and key-value (KV) store",
               "visible": false
             },
             {
-              "path": "documentation/how-vamp-works/routing-and-load-balancing",
+              "path": "documentation/how-orangesys-works/routing-and-load-balancing",
               "text": "Routing and load balancing",
               "visible": true
             },
             {
-              "path": "documentation/how-vamp-works/events-and-metrics",
+              "path": "documentation/how-orangesys-works/events-and-metrics",
               "text": "Events and metrics",
               "visible": true
             }
           ],
-          "text": "How Vamp works",
+          "text": "How Orangesys works",
           "visible": true
         },
         {
