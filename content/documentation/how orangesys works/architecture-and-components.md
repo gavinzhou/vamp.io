@@ -2,6 +2,9 @@
 date: 2016-09-13T09:00:00+00:00
 title: Architecture and components
 ---
+## インストール
+
+## 設定
 
 ## Architecture
 Vamp and the Vamp Gateway Agent require specific elements in your architecture to handle orchetstration, routing, persistence and metrics aggregation. There is no set architecture required for running Vamp and every use case or specific combination of tools and platforms can have its own set up.

@@ -93,48 +93,6 @@
             ],
           "text": "Use cases",
           "visible": true
-        },
-        {
-          "path": "why-use-orangesys/vamp-compared-to/proxies-and-load-balancers",
-          "children": [
-            {
-              "path": "why-use-orangesys/vamp-compared-to/proxies-and-load-balancers",
-              "text": "Proxies and load balancers",
-              "visible": true
-            },
-            {
-              "path": "why-use-orangesys/vamp-compared-to/paas-and-container-systems",
-              "text": "PaaS and container systems",
-              "visible": true
-            },
-            {
-              "path": "why-use-orangesys/vamp-compared-to/frameworks-and-tools",
-              "text": "Frameworks and tools",
-              "visible": true
-            }
-            ],
-          "text": "Vamp compared to...",
-          "visible": true
-        },
-        {
-          "path": "why-use-orangesys/see-vamp-in-action",
-          "text": "See Vamp in action",
-          "visible": true
-        },
-        {
-          "path": "why-use-orangesys/feature-list",
-          "text": "Feature list",
-          "visible": true
-        },
-        {
-          "path": "why-use-orangesys/enterprise-edition",
-          "text": "Enterprise edition",
-          "visible": true
-        },
-        {
-          "path": "why-use-orangesys/get-started",
-          "text": "Get started",
-          "visible": true
         }
       ]
     },
@@ -228,8 +186,8 @@
               "visible": true
             },
             {
-              "path": "documentation/installation/configure-vamp",
-              "text": "Configure Vamp",
+              "path": "documentation/installation/configure-grafana",
+              "text": "Configure grafana",
               "visible": true
             }
           ],
@@ -237,173 +195,80 @@
           "visible": true
         },
         {
-          "path": "documentation/tutorials",
+          "path": "documentation/using-grafana/artifacts",
           "children": [
             {
-              "path": "documentation/tutorials",
-              "text": "Overview",
-              "visible": true
-            },
-            {
-              "path": "documentation/tutorials/deploy-your-first-blueprint",
-              "text": "Deploy your first blueprint",
-              "visible": true
-            },
-            {
-              "path": "documentation/tutorials/run-a-canary-release",
-              "text": "Run a canary release",
-              "visible": true
-            },
-            {
-              "path": "documentation/tutorials/split-a-monolith",
-              "text": "Split a monolith",
-              "visible": true
-            },
-            {
-              "path": "documentation/tutorials/merge-and-delete",
-              "text": "Merge and delete",
-              "visible": true
-            }
-          ],
-          "text": "Tutorials",
-          "visible": true
-        },
-        {
-          "path": "documentation/using-vamp/artifacts",
-          "children": [
-            {
-              "path": "documentation/using-vamp/artifacts",
+              "path": "documentation/using-grafana/artifacts",
               "text": "Artifacts",
               "visible": true
             },
             {
-              "path": "documentation/using-vamp/breeds",
+              "path": "documentation/using-grafana/breeds",
               "text": "Breeds",
               "visible": true
             },
             {
-              "path": "documentation/using-vamp/blueprints",
+              "path": "documentation/using-grafana/blueprints",
               "text": "Blueprints",
               "visible": true
             },
             {
-              "path": "documentation/using-vamp/deployments",
+              "path": "documentation/using-grafana/deployments",
               "text": "Deployments",
               "visible": true
             },
             {
-              "path": "documentation/using-vamp/environment-variables",
+              "path": "documentation/using-grafana/environment-variables",
               "text": "Environment variables",
               "visible": true
             },
             {
-              "path": "documentation/using-vamp/gateways",
+              "path": "documentation/using-grafana/gateways",
               "text": "Gateways",
               "visible": true
             },
             {
-              "path": "documentation/using-vamp/conditions",
+              "path": "documentation/using-grafana/conditions",
               "text": "Conditions",
               "visible": true
             },
             {
-              "path": "documentation/using-vamp/events",
+              "path": "documentation/using-grafana/events",
               "text": "Events",
               "visible": true
             },
             {
-              "path": "documentation/using-vamp/sla",
+              "path": "documentation/using-grafana/sla",
               "text": "SLA (Service Level Agreement)",
               "visible": true
             },
             {
-              "path": "documentation/using-vamp/escalations",
+              "path": "documentation/using-grafana/escalations",
               "text": "Escalations",
               "visible": true
             },
             {
-              "path": "documentation/using-vamp/references",
+              "path": "documentation/using-grafana/references",
               "text": "Referencing artifacts",
               "visible": true
             },
             {
-              "path": "documentation/using-vamp/workflows",
+              "path": "documentation/using-grafana/workflows",
               "text": "Workflows",
               "visible": true
             },
             {
-              "path": "documentation/using-vamp/sticky-sessions",
+              "path": "documentation/using-grafana/sticky-sessions",
               "text": "Sticky sessions",
               "visible": true
             },
             {
-              "path": "documentation/using-vamp/virtual-hosts",
+              "path": "documentation/using-grafana/virtual-hosts",
               "text": "Virtual hosts",
               "visible": true
             }
           ],
-          "text": "Using Vamp",
-          "visible": true
-        },
-        {
-          "path": "documentation/api/api-reference",
-          "children": [
-            {
-              "path": "documentation/api/api-reference",
-              "text": "API reference",
-              "visible": true
-            },
-            {
-              "path": "documentation/api/using-the-api",
-              "text": "Using the Vamp API",
-              "visible": true
-            }
-          ],
-          "text": "API",
-          "visible": true
-        },
-        {
-          "path": "documentation/cli/cli-reference",
-          "children": [
-            {
-              "path": "documentation/cli/cli-reference",
-              "text": "CLI reference",
-              "visible": true
-            },
-            {
-              "path": "documentation/cli/using-the-cli",
-              "text": "Using the Vamp CLI",
-              "visible": true
-            }
-          ],
-          "text": "CLI",
-          "visible": true
-        },
-        {
-          "path": "documentation/release-notes/version-0-9-1",
-          "children": [
-            {
-              "path": "documentation/release-notes/katana",
-              "text": "katana",
-              "visible": true
-            },
-            {
-              "path": "documentation/release-notes/version-0-9-1",
-              "text": "version 0.9.1",
-              "visible": true
-            },
-            {
-              "path": "documentation/release-notes/version-0-9-0",
-              "text": "version 0.9.0",
-              "visible": true
-            },
-            {
-              "path": "documentation/release-notes/older-versions",
-              "text": "older versions",
-              "visible": true
-            }
-          ],
-          "text": "Release notes",
+          "text": "Using grafana",
           "visible": true
         }
         ],
