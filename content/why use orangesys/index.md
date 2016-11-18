@@ -1,24 +1,22 @@
 ---
-date: 2016-09-13T09:00:00+00:00
+date: 2016-11-17T09:00:00+00:00
 title: Why use Orangesys?
 ---
 
-## APM重要性(new relic)
+## What is Orangesys?
+
+Infrastructure as Code は、インフラやプロビジョニングを自動化するための、ハイレベル / 宣言的なコードを書くプラクティスであり、それらがコード化されることで、単に自動化できるとかではなく、ソフトウェア開発で培われてきたプラクティスがインフラ構築にも使えるようになることが大きなイノベーションです。
+
+Orangesysはその大きなイノベーション実現のため、支えるパフォマンス監視サービスを提供します。
+
+## パフォマンス監視重要性(new relic)
+パフォーマンスを監視しないと、問題発生後にしか対応が行えません。問題発生時も、どこで問題が発生したのかを調査するところから始めなくてはなりません。手間と時間が非常にかかります。その間もユーザーが離れていったしまうかもしれません。
 
 ## 自前構築コスト(ELK、logentries参照)
 
-We recognise the pain and risk involved with delivering microservice applications.  We've been there too - facing downtime and unexpected issues while transitioning from one release to the next.
-In microservice architectures, these concerns can quickly multiply. It's all too easy to get stuck dealing with the added complexities and miss out on the potential benefits.
 
-![](/images/typical-systems-vs-vamp.png)
-
-## What is Orangesys?
-
-### OpenSaaS、ecosystem
 
 {{< note title="What next?" >}}
 * [Try Vamp](/app)
-* Read the full [Vamp feature list](/why-use-vamp/feature-list/)
-* [What Vamp offers compared to other tools and services](/why-use-vamp/vamp-compared-to/proxies-and-load-balancers/)
-* [How Vamp works](/documentation/how-vamp-works/architecture-and-components)
+* [How OrangeSys works](/documentation/how-vamp-works/architecture-and-components)
 {{< /note >}}

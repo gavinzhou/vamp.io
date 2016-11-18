@@ -69,26 +69,6 @@
               "path": "why-use-orangesys/use-cases/refactor-monolithic-to-microsystems",
               "text": "Refactor to microservices",
               "visible": true
-            },
-            {
-              "path": "why-use-orangesys/use-cases/modernise-architecture",
-              "text": "Modernise architecture",
-              "visible": true
-            },
-            {
-              "path": "why-use-orangesys/use-cases/simulate-and-test-scaling-behaviour",
-              "text": "Simulate and test scaling behaviour",
-              "visible": true
-            },
-            {
-              "path": "why-use-orangesys/use-cases/self-healing-and-self-optimising",
-              "text": "Self-healing and self-optimising",
-              "visible": true
-            },
-            {
-              "path": "why-use-orangesys/use-cases/service-discovery",
-              "text": "Service discovery",
-              "visible": true
             }
             ],
           "text": "Use cases",
