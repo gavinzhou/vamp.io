@@ -1,6 +1,6 @@
 baseurl = "."
-languageCode = "en-us"
-title = "Vamp"
+languageCode = "ja"
+title = "OrangeSys"
 theme = "vamp-theme"
 metadataformat = "yaml"
 canonifyurls = true
@@ -10,15 +10,15 @@ googleAnalytics = ""
 
 [params]
 	# General information
-	author = "magnetic.io"
-	description = "Vamp - Deploy and manage microservices with power and ease."
+	author = "orangesys.io"
+	description = "Orangesys - OpenSaaS monitoring"
 	copyright = "Released under the Apache 2 license"
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/magneticio/vamp"
+	repo_url = "https://github.com/orangesys"
 
-	version = "0.9.0"
+	version = "0.1.0"
 	logo = "images/logo.svg"
 	favicon = "images/logo.svg"
 
@@ -59,13 +59,13 @@ googleAnalytics = ""
 	plainIDAnchors = true
 
 [[menu.main]]
-	name   = "WHAT IS VAMP?"
-	url    = "/what-is-vamp/"
+	name   = "WHAT IS Orangesys?"
+	url    = "/what-is-orangesys/"
 	weight = 10
 
 [[menu.main]]
-	name   = "TRY VAMP"
-	url    = "/try-vamp/"
+	name   = "TRY Orangesys"
+	url    = "/app/"
 	weight = 20
 
 
@@ -83,4 +83,3 @@ googleAnalytics = ""
 	name   = "SUPPORT"
 	url    = "support/"
 	weight = 50
-

@@ -58,21 +58,21 @@
             {
               "path": "why-use-orangesys/use-cases/create-responsive-website",
               "text": "Create a responsive website",
-              "visible": true
+              "visible": false
             },
             {
               "path": "why-use-orangesys/use-cases/resolve-incompatibilities-after-upgrade",
               "text": "Resolve incompatibilities",
-              "visible": true
+              "visible": false
             },
             {
               "path": "why-use-orangesys/use-cases/refactor-monolithic-to-microsystems",
               "text": "Refactor to microservices",
-              "visible": true
+              "visible": false
             }
             ],
           "text": "Use cases",
-          "visible": true
+          "visible": false
         }
       ]
     },
@@ -90,32 +90,7 @@
             {
               "path": "documentation/how-orangesys-works/requirements",
               "text": "Requirements",
-              "visible": true
-            },
-            {
-              "path": "documentation/how-orangesys-works/which-container-scheduler",
-              "text": "Which container scheduler?",
-              "visible": true
-            },
-            {
-              "path": "documentation/how-orangesys-works/service-discovery",
-              "text": "Service discovery",
-              "visible": true
-            },
-            {
-              "path": "documentation/how-orangesys-works/persistence-key-value-store",
-              "text": "Persistence and key-value (KV) store",
               "visible": false
-            },
-            {
-              "path": "documentation/how-orangesys-works/routing-and-load-balancing",
-              "text": "Routing and load balancing",
-              "visible": true
-            },
-            {
-              "path": "documentation/how-orangesys-works/events-and-metrics",
-              "text": "Events and metrics",
-              "visible": true
             }
           ],
           "text": "How Orangesys works",
@@ -129,46 +104,6 @@
               "path": "documentation/installation",
               "text": "Overview",
               "visible": true
-            },
-            {
-              "path": "documentation/installation/hello-world",
-              "text": "Hello world",
-              "visible": true
-            },
-            {
-              "path": "documentation/installation/dcos",
-              "text": "DC/OS 1.7 and 1.8",
-              "visible": true
-            },
-            {
-              "path": "documentation/installation/mesos-marathon",
-              "text": "Mesos/Marathon",
-              "visible": true
-            },
-            {
-              "path": "documentation/installation/kubernetes",
-              "text": "Kubernetes 1.x",
-              "visible": true
-            },
-            {
-              "path": "documentation/installation/rancher",
-              "text": "Rancher",
-              "visible": true
-            },
-            {
-              "path": "documentation/installation/docker",
-              "text": "Docker",
-              "visible": true
-            },
-            {
-              "path": "documentation/installation/azure-container-service",
-              "text": "Azure Container Service",
-              "visible": true
-            },
-            {
-              "path": "documentation/installation/configure-grafana",
-              "text": "Configure grafana",
-              "visible": true
             }
           ],
           "text": "Installation",
@@ -180,76 +115,11 @@
             {
               "path": "documentation/using-grafana/artifacts",
               "text": "Artifacts",
-              "visible": true
-            },
-            {
-              "path": "documentation/using-grafana/breeds",
-              "text": "Breeds",
-              "visible": true
-            },
-            {
-              "path": "documentation/using-grafana/blueprints",
-              "text": "Blueprints",
-              "visible": true
-            },
-            {
-              "path": "documentation/using-grafana/deployments",
-              "text": "Deployments",
-              "visible": true
-            },
-            {
-              "path": "documentation/using-grafana/environment-variables",
-              "text": "Environment variables",
-              "visible": true
-            },
-            {
-              "path": "documentation/using-grafana/gateways",
-              "text": "Gateways",
-              "visible": true
-            },
-            {
-              "path": "documentation/using-grafana/conditions",
-              "text": "Conditions",
-              "visible": true
-            },
-            {
-              "path": "documentation/using-grafana/events",
-              "text": "Events",
-              "visible": true
-            },
-            {
-              "path": "documentation/using-grafana/sla",
-              "text": "SLA (Service Level Agreement)",
-              "visible": true
-            },
-            {
-              "path": "documentation/using-grafana/escalations",
-              "text": "Escalations",
-              "visible": true
-            },
-            {
-              "path": "documentation/using-grafana/references",
-              "text": "Referencing artifacts",
-              "visible": true
-            },
-            {
-              "path": "documentation/using-grafana/workflows",
-              "text": "Workflows",
-              "visible": true
-            },
-            {
-              "path": "documentation/using-grafana/sticky-sessions",
-              "text": "Sticky sessions",
-              "visible": true
-            },
-            {
-              "path": "documentation/using-grafana/virtual-hosts",
-              "text": "Virtual hosts",
-              "visible": true
+              "visible": false
             }
           ],
           "text": "Using grafana",
-          "visible": true
+          "visible": false
         }
         ],
       "text": "Documentation",
