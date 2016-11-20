@@ -48,6 +48,18 @@
           "visible": true
         },
         {
+          "path": "why-use-orangesys/pricing",
+          "children": [
+            {
+              "path": "index",
+              "text": "index",
+              "visible": false
+            }
+          ],
+          "text": "Pricing",
+          "visible": true
+        },
+        {
           "path": "why-use-orangesys/use-cases",
           "children": [
             {
