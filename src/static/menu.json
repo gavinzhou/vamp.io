@@ -122,6 +122,29 @@
           "visible": true
         },
         {
+          "path": "documentation/terms-of-use",
+          "children":
+          [
+            {
+              "path": "index",
+              "text": "Index",
+              "visible": false
+            },
+            {
+              "path": "documentation/terms-of-use/law",
+              "text": "特定商取引に関する表記",
+              "visible": true
+            },
+            {
+              "path": "documentation/terms-of-use/privacy",
+              "text": "プライバシーポリシー",
+              "visible": true
+            }
+          ],
+          "text": "Terms of Use",
+          "visible": true
+        },
+        {
           "path": "documentation/using-grafana/artifacts",
           "children": [
             {
