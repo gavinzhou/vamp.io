@@ -183,17 +183,6 @@ button:focus {
 /* Grid */
 /* Colors */
 /* For naming colors use: // http://chir.ag/projects/name-that-color/ */
-/* // vamp.io site
-$color-radical-red: #FF405E;
-$color-brick-red: #C33750;
-$color-big-stone: #142D3C;
-$color-blue-dianne: #234B5F;
-$color-ming: #37647D;
-$color-bermuda-gray: #6991AA;
-$color-jungle-mist: #C3D2DC;
-$color-cascade: #96ADAA;
-$color-white-squeeze: #F0F5FA;
-*/
 /* Font-sizes */
 /* Margins */
 .container {
@@ -666,7 +655,7 @@ body {
     background-color: #F4511E;
     color: white; }
     .button--red:hover {
-      background-color: #C33750; }
+      background-color: #FF6E40; }
     .button--red--ghost {
       background-color: transparent;
       color: #F4511E;
@@ -729,6 +718,8 @@ body {
     background-color: white; }
   .lander-row--grey {
     background-color: #F0F5FA; }
+  .lander-row--orange {
+    color: #F4511E; }
   .lander-row--red {
     background-color: #F4511E; }
     .lander-row--red .header, .lander-row--red .h2, .lander-row--red .h3, .lander-row--red .button, .lander-row--red .text, .lander-row--red .markdowned li, .markdowned .lander-row--red li, .lander-row--red .markdowned td, .markdowned .lander-row--red td, .lander-row--red .date, .lander-row--red .fa {

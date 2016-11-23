@@ -2,23 +2,17 @@
 date: 2016-09-13T09:00:00+00:00
 title: Installation
 ---
-Before you get Vamp up and running on your architecture, it is helpful to understand [how vamp works](/documentation/how-vamp-works/architecture-and-components) and the role of each component and its preferred location in a typical architecture.  
-
-If you need help you can find us on [Gitter] (https://gitter.im/magneticio/vamp)
 
 #### Requirements
 
-* [Vamp requirements](/documentation/how-vamp-works/requirements)
+* インストール時、root権限が必要となります。
+* orangesysへの通信が出来ます。
+* orangesys jwt tokenが必要。登録後、ログイン画面に表示します。
 
-#### Install Vamp
-The Vamp UI includes mixpanel integration. We monitor data on Vamp usage solely to inform our ongoing product development. Feel free to block this at your firewall, or [contact us](contact) if you’d like further details.
 
-* [DC/OS 1.7 and 1.8](/documentation/installation/dcos)
-* [Mesos/Marathon](/documentation/installation/mesos-marathon)
-* [Kubernetes 1.x](/documentation/installation/kubernetes)
-* [Rancher](/documentation/installation/rancher)
-* [Docker](/documentation/installation/docker)
-* [Azure Container Service](/documentation/installation/azure-container-service)
+#### Install orangesys agent
+* [Ubuntu & Debian](/documentation/installation/ubuntu-debian)
+* [Redhat & Centos & Amazon Linux](/documentation/installation/redhat-centos)
 
 #### Configuration
 
@@ -27,5 +21,3 @@ The Vamp UI includes mixpanel integration. We monitor data on Vamp usage solely 
 ## Try Vamp
 
 We've put together a [hello world walkthrough](/documentation/installation/hello-world/) to let you try out some of Vamp's core features in a local docker container. You can use this to work through the [getting started tutorials](/documentation/tutorials).
-
-

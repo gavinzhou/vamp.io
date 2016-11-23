@@ -26,5 +26,4 @@ Nagios is open source. Nagios isn’t free.
 
 {{< note title="What next?" >}}
 * [Try Vamp](/app)
-* [How OrangeSys works](/documentation/how-vamp-works/architecture-and-components)
 {{< /note >}}
