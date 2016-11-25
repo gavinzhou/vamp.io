@@ -203,7 +203,7 @@ body {
     color: white;
 
     &:hover {
-      background-color: $color-brick-red;
+      background-color: darken($color-radical-red, 10%);
     }
 
     &--ghost {
@@ -321,7 +321,7 @@ body {
   }
 
   &--red {
-    background-color: $color-radical-red;
+    background-color: $color-brick-red;
 
     .header, .h2, .h3, .text, .fa {
       color: white;
@@ -337,7 +337,8 @@ body {
 .hero-space {
   padding-top: 14px + 40px;
   padding-bottom: 0;
-  background: linear-gradient(45deg, $color-blue-dianne, $color-big-stone);
+  background: $color-brick-red;
+  // background: linear-gradient(45deg, $color-blue-dianne, $color-big-stone);
   position: relative;
 
   @media all and (min-width: 321px) {
@@ -984,7 +985,7 @@ body {
 
     .text {
       font-weight: 100;
-      color: $color-jungle-mist !important;
+      color: $color-white-squeeze !important;
 
     }
 
