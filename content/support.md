@@ -4,10 +4,10 @@ title: support
 ---
 企業版
 
-For the **Orangesys Enterprise Edition** please [contact us](mailto:info@orangesys.io) to discuss your requirements, pricing and features.
+For the **Orangesys Enterprise Edition** please [contact us](mailto:hello@orangesys.io) to discuss your requirements, pricing and features.
 
-#### Twitter
-You can also follow us on Twitter: [@orangesys](https://twitter.com/orangesys)
+### Twitter
+You can also follow us on Twitter: [@orangesysio](https://twitter.com/orangesysio)
 
 {{< note title="What next?" >}}
 * [Try Orangesys](/app)

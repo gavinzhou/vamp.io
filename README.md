@@ -6,7 +6,7 @@ Web theme is based on [magneticio/vamp.io](https://github.com/magneticio/vamp.io
 
 1. Clone this repo
 
-        $ git clone https://github.com/orangesys/vamp.io.git
+        $ git clone https://github.com/gavinzhou/vamp.io.git
 
 2. Download Hugo from [http://gohugo.io](http://gohugo.io) or install using Homebrew:
 

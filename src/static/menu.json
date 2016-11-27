@@ -4,17 +4,7 @@
       "path": "about",
       "text": "About",
       "visible": false
-    },
-    {
-      "path": "community",
-      "text": "Community",
-      "visible": false
-    },
-    {
-      "path": "contact",
-      "text": "Contact",
-      "visible": false
-    },
+    },     
     {
       "path": "index.json",
       "text": "Index.json",
@@ -39,25 +29,25 @@
     },
     {
       "path": "why-use-orangesys",
-      "text": "Why use Orangesys? ",
+      "text": "Why use Orangesys?",
       "visible": true,
       "children": [
         {
           "path": "why-use-orangesys",
-          "text": "Why use Orangesys?",
+          "text": "Why use Orangesys",
           "visible": true
         },
         {
           "path": "why-use-orangesys/pricing",
+          "text": "Pricing",
+          "visible": true,
           "children": [
             {
               "path": "index",
               "text": "index",
               "visible": false
             }
-          ],
-          "text": "Pricing",
-          "visible": true
+          ]
         },
         {
           "path": "why-use-orangesys/use-cases",
