@@ -13,11 +13,3 @@ title: Installation
 #### Install orangesys agent
 * [Ubuntu & Debian](/documentation/installation/ubuntu-debian)
 * [Redhat & Centos & Amazon Linux](/documentation/installation/redhat-centos)
-
-#### Configuration
-
-* [Configure Vamp](/documentation/installation/configure-vamp/)
-
-## Try Vamp
-
-We've put together a [hello world walkthrough](/documentation/installation/hello-world/) to let you try out some of Vamp's core features in a local docker container. You can use this to work through the [getting started tutorials](/documentation/tutorials).
